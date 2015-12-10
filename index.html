@@ -20,7 +20,7 @@
 
     <section class="main-content">
       <h1>
-<a id="a-plan-for-action-for-social-media-response" class="anchor" href="#a-plan-for-action-for-social-media-response" aria-hidden="true"><span class="octicon octicon-link"></span></a>A Plan for Action for Social Media Response</h1>
+<a id="analyzing-social-media-response" class="anchor" href="#analyzing-social-media-response" aria-hidden="true"><span class="octicon octicon-link"></span></a>Analyzing Social Media Response</h1>
 
 <h3>
 <a id="by-rachel-feldman-jeniffer-soto-perez-and-casey-salvador" class="anchor" href="#by-rachel-feldman-jeniffer-soto-perez-and-casey-salvador" aria-hidden="true"><span class="octicon octicon-link"></span></a>BY RACHEL FELDMAN, JENIFFER SOTO-PEREZ, AND CASEY SALVADOR</h3>
@@ -28,65 +28,84 @@
 <h2>
 <a id="about-me" class="anchor" href="#about-me" aria-hidden="true"><span class="octicon octicon-link"></span></a>About Me</h2>
 
-<p>My name is Rachel Feldman and I am an Arts Management major, Data Science minor.  I concentrate on creating and imagining audience experiences of the highest caliber in the arts starting from the first interaction online to the post-event sentiment.  This project was a part of Dr. Paul Anderson's Data 101 class.  For questions or comments email me at <a href="mailto:feldmanrm@g.cofc.edu">feldmanrm@g.cofc.edu</a></p>
+<p>My name is Rachel Feldman and I am a student at the College of Charleston.  I concentrate in creating and imagining audience experiences of the highest caliber in the arts starting from the first interaction online to the post-event sentiment.  The following project is a part of Dr. Paul Anderson's Data 101 class.  For questions or comments contact me via email at <a href="mailto:feldmanrm@g.cofc.edu">feldmanrm@g.cofc.edu</a></p>
 
 <h2>
 <a id="the-competition" class="anchor" href="#the-competition" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Competition</h2>
 
-<p>Dialogues on social media can provide tremendous insight into the behaviors, desires, pains, and thoughts of consumers. We'd like your help in developing a repeatable process that identifies, classifies, and extracts the underlying drivers of consumer financial conversations and comments in social media data. </p>
+<p>From the competition website:
+Dialogues on social media can provide tremendous insight into the behaviors, desires, pains, and thoughts of consumers. We'd like your help in developing a repeatable process that identifies, classifies, and extracts the underlying drivers of consumer financial conversations and comments in social media data. </p>
 
 <h2>
 <a id="preparing-the-data" class="anchor" href="#preparing-the-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Preparing the Data</h2>
 
-<p>In order to pull useful information from the data given, we but the dataset in R studio.  We mined the tweets and posts through R Studio, getting rid of blank spaces, messages that did not tag a particular bank.  Additionally, we spell checked the information.  </p>
+<p>In order to pull useful information from the data given, we put the dataset in R studio.  We mined the tweets and posts through R Studio, getting rid of blank spaces, messages that did not tag a particular bank.  Additionally, we spell checked the information.  </p>
 
 <h2>
 <a id="approach-and-methodology" class="anchor" href="#approach-and-methodology" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approach and Methodology</h2>
 
-<p>Once we prepared the tweets and posts for analysis, we used an agile methodology so we could test small amounts of data at a time to quicken the process, that would be representative of things we could get when testing the entire data set.<br>
-An agile methodology was chosen so the many questions could be answered and so methods could be repeated and compared for each bank. Through a process, we tested 1000 random samples of the entire data set and then 1000 random samples of only bank A to compare and contrast differences.
+<p>Once we prepared the tweets and posts for analysis, we used an agile methodology so we could test small amounts of data at a time to quicken the process. 
+An agile methodology was chosen so we could start to answer smaller questions and work our way up to bigger ones that would lead to bigger and broader results.  Our methods could be repeated and compared for each bank. Through our process, we tested 1000 random samples of the entire data set and then 1000 random samples of only bank A to compare and contrast differences.
 Below, find a graphical representation of the analytic and developmental approach taken.  It will show first cleaning the data where the team got rid of any additional room that was taking up space.  The team then tested the data overall to find positive and negative sentiment words as well as high-frequency words.  This gave us the framework to look at the data as a whole before looking into the context of each bank.  This step also allowed for the creation of two separate files for negative and positive posts.<br>
 The team indexed each bank to then replicate the tests: positive and negative as well as word frequency. 
-The results were then tested against the results as a whole.</p>
+The results were then tested against each bank's and the data set as a whole.  Finally, we tried to pull conclusions about what our results may tell us about the bank industry's presence in social media as a whole.</p>
 
 <p><img src="http://i.imgur.com/XI5Eh29.jpg" alt="Method"></p>
 
-<p>Our methodology mirrors the first three steps of the DIKW pyramid.  The pyramid shows data at the bottom, then information, knowledge, and wisdom.  With our approach, we are converting the data into informations that means something.  With insights, comparing, and classification methods, we hope to convert the information into knowledge.  This knowledge we hope will be able to predict and make assumptions about the differnt banks and if supported for a time, later be converted to wisdom.  </p>
+<p>Our methodology mirrors the first three steps of the DIKW pyramid.  The pyramid shows data at the bottom, then information, knowledge, and wisdom.  With our approach, we are converting the data into information that means something.  With insights, comparing, and classification methods, we hope to convert the information into knowledge.  This knowledge we hope will be able to predict and make assumptions about the different banks and if supported for a time, later be applied to practices to be wisdom.  </p>
 
 <p><img src="http://www.allthingy.com/wp-content/uploads/2014/07/Wisdom-Knowledge-Information-Data-Pyramid15.png" alt="DIKW Pyramid"></p>
 
 <h3>
 <a id="approaching-the-data-banks-within-social-media" class="anchor" href="#approaching-the-data-banks-within-social-media" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approaching the Data: Banks within Social Media</h3>
 
-<p>As the data given was real, it was important to find out more context before we began cleaning, organizing and gaining insights from it.  As Social Balkers, a social media research facility and consulting firm submits trends yearly, their report was used to see where the bank posts lay within the span of the greater social media.  </p>
+<p>As the data given was real, it was important to find out more about banks' part in social media before we began cleaning, organizing and gaining insights from it.  As Social Balkers, a social media research facility and consulting firm submits trends yearly, their report was used to see where the bank posts lay within the span of the greater social media.  </p>
 
-<p>First, engagement rate typically is determined by size.</p>
+<p>First, engagement rate typically is determined by size:</p>
 
 <p><img src="http://www.socialbakers.com//storage/www/2014-mar/finding-er-3.png" alt="Engagement Rate by Page Size"></p>
 
-<p>We then looked at the top banks facebook likes.  While we did not have the specific bank per bank ID, this information is useful to see about what percent of users are talking.  Through Facebook, we saw that Wells Fargo has 850,000 likes, Bank of America has 2.3 million likes. JPMorgan and Chase, and Citigroup, two other national banks do not have national facebook pages, thus their numbers are much lower -in the thousands- but have many more pages.</p>
+<p>We then looked at the top banks facebook likes.  While we did not have the specific bank per bank ID, this information is useful to gage what percent of users are talking.  Through Facebook, we saw that Wells Fargo has 850,000 likes, Bank of America has 2.3 million likes. JPMorgan and Chase, and Citigroup, two other national banks do not have national facebook pages, thus their numbers are much lower -in the thousands- but have many more pages.</p>
 
-<p>Comparing these numbers to the above graph, it is evident that each bank may be going in different directions of how much engagement they are aiming toward. While Bank of America may have a low engagement of .28% and .11%, according to this graph pages like Citigroup and JPMorgan will have a higher engagement of .94% and .65% </p>
+<p>Comparing these numbers to the above graph, it is evident that each bank may be going in different directions of how much engagement they are getting. While Bank of America potentially has a low engagement of .28% and .11%, according to this graph pages like Citigroup and JPMorgan potentially has a higher engagement of .94% and .65% </p>
 
-<p>Next, Social Balkers published these graphs to show where different industris compare to eachother. In post engagement and post interaction.</p>
+<p>Next, Social Balkers published these graphs to show where different industries compare to each other. In post engagement and post interaction.</p>
 
 <p><img src="http://www.socialbakers.com//storage/www/2014-mar/finding-er-2.png" alt=""></p>
 
 <p><img src="http://www.socialbakers.com//storage/www/2014-mar/finding-er-5.png" alt=""></p>
 
-<p>For the above graph, an engagement is counted if it is a direct comment, like or share, and then is divided by unique page impressions (the people who have seen it).</p>
+<p>For the top graph, an engagement is counted if it is a direct comment, like or share, and then is divided by unique page impressions (the people who have seen it).</p>
 
-<p>Interactions are straight likes, shares, and comments. According to these graphs, Finance has a relatively mid-level engagement rate, and a low overall interaction number.  This shows that Less people overall are seeing finance's posts, but the ones who do are 0.30% likely to comment, like or share what they do see.</p>
+<p>Interactions are straight likes, shares, and comments. According to these graphs, Finance has a relatively mid-level engagement rate, and a low overall interaction number.  This shows that fewer people overall are seeing finance's posts, but the ones who do are 0.30% likely to comment, like or share what they do see.</p>
 
 <p>In approaching the data, our team took these numbers slightly into consideration to give the data more context.</p>
 
 <h2>
 <a id="social-conversation-drivers" class="anchor" href="#social-conversation-drivers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Social Conversation Drivers</h2>
 
-<p>To find the social conversation drivers, we started to index the data.  First we did this by positive vs. negative.  We then asked the questions of what started the conversation and what variables, from the given data, connect.
-Questions that connect to this were is there a correlation between positive/ negative remarks on different days of the week or times of the month?  Is there a different sort of sentiment on twitter compared to facebook?
-If given additional information, more questions that could be answered are is location a factor in and of these posts? Can we geolocate, through social media, a branch that is doing really well vs poorly? Does location drive a certain feeling toward one bank or another?  Another group of questions that could be answered with additional information is time and if Time is a factor for overall sentiment, topic, or substance.  Finally, an interesting factor into all of these questions would be looking at the ages of the different posters and seeing if there is any correction between age, sentiment, topic, substance, location, and time of day.
-After answering these questions for a specific bank and finding numbers, comparing these to the overall internet averages would be beneficial to see where the banking world falls in social conversation compared to other industries. </p>
+<p>To find the social conversation drivers, we started to index the data.  First we did this by separating the positive and negative posts.  We then asked the questions of what started the conversation and what variables, from the given data, connect.</p>
+
+<p>Questions that connect to this are:</p>
+
+<ul>
+<li>Is there a correlation between positive/ negative remarks on different days of the week or times of the month?<br>
+</li>
+<li>Is there a different sort of sentiment on twitter compared to facebook?</li>
+</ul>
+
+<p>If given additional information, more questions that could be answered are:</p>
+
+<ul>
+<li>Is location a factor in and of these posts? </li>
+<li>Can we geolocate, through social media, a branch that is doing really well vs poorly? </li>
+<li>Does location drive a certain feeling toward one bank or another?<br>
+</li>
+<li>Is time is a factor on overall sentiment, topic, or substance.<br>
+8 Finally, an interesting factor into all of these questions would be looking at the ages of the different posters and seeing if there is any correction between age, sentiment, topic, substance, location, and time of day.</li>
+</ul>
+
+<p>After answering these questions for a specific bank and finding numbers, comparing these to the overall internet averages would be beneficial to see where the banking world falls in social conversation compared to other industries. </p>
 
 <h2>
 <a id="code" class="anchor" href="#code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code</h2>
@@ -128,7 +147,7 @@ library(<span class="pl-smi">tm</span>)
 save.image(<span class="pl-s"><span class="pl-pds">'</span>docs.preprocessed.Rda<span class="pl-pds">'</span></span>)
 load(<span class="pl-s"><span class="pl-pds">'</span>docs.preprocessed.Rda<span class="pl-pds">'</span></span>)
 
-<span class="pl-c"># Documents containing each bank</span>
+<span class="pl-c"># Documents containing each bank to reference when wanting to compare different banks</span>
 <span class="pl-v">bankA.idx</span> <span class="pl-k">=</span> which(sapply(<span class="pl-smi">df</span><span class="pl-k">$</span><span class="pl-smi">FullText</span>,<span class="pl-k">function</span>(<span class="pl-smi">x</span>) grepl(<span class="pl-s"><span class="pl-pds">"</span>BankA<span class="pl-pds">"</span></span>,<span class="pl-smi">x</span>)))
 <span class="pl-v">bankB.idx</span> <span class="pl-k">=</span> which(sapply(<span class="pl-smi">df</span><span class="pl-k">$</span><span class="pl-smi">FullText</span>,<span class="pl-k">function</span>(<span class="pl-smi">x</span>) grepl(<span class="pl-s"><span class="pl-pds">"</span>BankB<span class="pl-pds">"</span></span>,<span class="pl-smi">x</span>)))
 <span class="pl-v">bankC.idx</span> <span class="pl-k">=</span> which(sapply(<span class="pl-smi">df</span><span class="pl-k">$</span><span class="pl-smi">FullText</span>,<span class="pl-k">function</span>(<span class="pl-smi">x</span>) grepl(<span class="pl-s"><span class="pl-pds">"</span>BankC<span class="pl-pds">"</span></span>,<span class="pl-smi">x</span>)))
@@ -181,6 +200,7 @@ set.seed(<span class="pl-c1">142</span>)
 wordcloud(names(<span class="pl-smi">freq</span>), <span class="pl-smi">freq</span>, <span class="pl-v">max.words</span><span class="pl-k">=</span><span class="pl-c1">25</span>, <span class="pl-v">rot.per</span><span class="pl-k">=</span><span class="pl-c1">0.2</span>, <span class="pl-v">colors</span><span class="pl-k">=</span><span class="pl-smi">dark2</span>)
 
 <span class="pl-c"># Sentiment analysis</span>
+<span class="pl-c">#Positive and Negative Sentiment Values</span>
 <span class="pl-smi">pos</span> <span class="pl-k">&lt;-</span> scan(<span class="pl-s"><span class="pl-pds">'</span>positive-words.txt<span class="pl-pds">'</span></span>,<span class="pl-v">what</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>character<span class="pl-pds">'</span></span>,<span class="pl-v">comment.char</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>;<span class="pl-pds">'</span></span>)
 <span class="pl-smi">neg</span> <span class="pl-k">&lt;-</span> scan(<span class="pl-s"><span class="pl-pds">'</span>negative-words.txt<span class="pl-pds">'</span></span>,<span class="pl-v">what</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>character<span class="pl-pds">'</span></span>,<span class="pl-v">comment.char</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>;<span class="pl-pds">'</span></span>)
 
@@ -317,13 +337,10 @@ rect.hclust(<span class="pl-smi">fit</span>, <span class="pl-v">k</span> <span c
 <h2>
 <a id="topics-discussed" class="anchor" href="#topics-discussed" aria-hidden="true"><span class="octicon octicon-link"></span></a>TOPICS DISCUSSED</h2>
 
-<p>Looking at the positive and negative posts separately, the three main topics discussed were customer service, fees and ATM.
-Customer Service</p>
+<p>Top Topics discussed: </p>
 
 <ul>
-<li>Positive tones: Customer service assisted user with information about fees</li>
-<li>Negative tone: Users dissatisfied about fees and customer service
-Top Topics discussed: Customer Service</li>
+<li>Customer Service</li>
 <li>ATM</li>
 <li>Security</li>
 <li>Privacy</li>
@@ -335,7 +352,8 @@ Top Topics discussed: Customer Service</li>
 <li>Fees</li>
 </ul>
 
-<p>ATM</p>
+<p>The three main topics discussed were customer service, fees and ATM.
+ATM</p>
 
 <ul>
 <li>Customer dislikes interacting with ATM due to lack of privacy, security, and customer service. </li>
@@ -364,14 +382,29 @@ Top Topics discussed: Customer Service</li>
 <h3>
 <a id="classification-to-find-comments-of-substance" class="anchor" href="#classification-to-find-comments-of-substance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Classification to find comments of substance.</h3>
 
-<p>We started creating a code that would classify the tweets and posts into spam or real.  We did this for the positive and negative posts separately to see the differences and similarities between what can be responded to, both on social media, as well as from a business stand-point.  In doing so, and testing on parts of the data, we created two decision trees that showed what kew words (aside from names, twitter handle, and the bank name)<br>
+<p>We started creating a code that would classify the tweets and posts into spam or real.  We did this for the positive and negative posts separately to see the differences and similarities between what can be responded to, both on social media, as well as from a business stand-point.  In doing so, and testing parts of the data, we created two decision trees that showed what key words (aside from names, twitter handle, and the bank name)<br>
 Our suggestion would be to have the people responding to tweets/ posts putting if they are spam or not so the algorithm becomes more sophisticated.  In doing so, when looking at the tweets later on, the data will be better minned if there was an algorithm that took out nonrelevant or ‘spam’ tweets and posts. </p>
 
-<p><img src="http://i.imgur.com/L8f24Az.png" alt="Classification"></p>
+<table>
+<thead>
+<tr>
+<th>Positive Classification Relevancy</th>
+<th>Negative Classification Relevancy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="http://i.imgur.com/L8f24Az.png" alt="Positive Classification"></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="http://i.imgur.com/ul8pehC.png" alt="Negative Classification "></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-<p>According to our tree diagram, this diagram displays the positive relevant words. This is significant because here we are able to plot the relevancy of positive sentiments as it shows overall bank's performance within the industry. When banks are acknowledge for their service they receive positive statements within a .5 relevancy.  </p>
-
-<p>Using this classification can be helpful not only in finding spam, but once also show if specific topics occur predominantly.  While our other methods show a greater list of topics, if a topic showed up in either a negative or positive relevancy tree diagram, it would prove to be predominant to the others. </p>
+<p>According to our tree diagram, this diagram displays the positive and negative relevant words. This is significant because here we are able to plot the relevancy of positive sentiments as it shows overall bank's performance within the industry. When banks are acknowledged for their service they receive positive statements within a .5 relevancy.  With a less than .5 relevancy, the post may not be worth the time of the analyzer on the next social media analysis.  This can be helpful to decrease wasted space and a faster analysis process because there will be a significant amount less posts and tweets.  In our research, out of 301 posts, only 137 were relevant. </p>
 
 <h3>
 <a id="frequent-topics-and-related-items" class="anchor" href="#frequent-topics-and-related-items" aria-hidden="true"><span class="octicon octicon-link"></span></a>Frequent Topics and Related Items</h3>
@@ -383,9 +416,9 @@ This dedrogram, created by a member or my team shows some of the hierarchical pa
 <li>At the smaller connections, money and phone are linked suggestion mobile app use, or customer service ties</li>
 <li>BankD is commonly linked to url links(represented by 'internet')</li>
 <li>BankA is clustered with twitter handles which shows that there was a high percent of the posts tweets about bank A</li>
-<li>Program, full, learn, and small are all linked.  seeing as these have less to do with banking topics, with more time, we would dig into these key words to see what the conversation was about</li>
-<li>Account and nameresp are connected which means that there is frequent conversation on facebook about user's accounts.</li>
-<li>Today is closely clustered with business and street.  this implies that the users had an urgency in posting that day, and that the experience was in person- a business or a street addressed.  This can either mean a walk in bank or ATM location. </li>
+<li>Program, full, learn, and small are all linked.  As these have less to do with banking topics, with more time, we would dig into these key-words to see what the conversation was about</li>
+<li>Account and nameresp are connected which means that there are frequent conversations on facebook about users' accounts.</li>
+<li>Today is closely clustered with business and street.  This may imply that the users had an urgency in posting that day and that the experience was in person- a business or a street addressed.  This can either mean a walk in bank or ATM location. </li>
 </ul>
 
 <p>Regardless of sentiment value, the four banks were surveyed separately and together to find the most common topics for each, represented in a word cloud.</p>
