@@ -28,7 +28,7 @@
 <h2>
 <a id="about-me" class="anchor" href="#about-me" aria-hidden="true"><span class="octicon octicon-link"></span></a>About Me</h2>
 
-<p>My name is Rachel Feldman and I am an Arts Management major, Data Science minor.  I concentrate on creating and imagining audience experiences of the highest caliber in the arts and online.  This project was a part of Dr. Paul Anderson's Data 101 class.  For questions or comments email me at <a href="mailto:feldmanrm@g.cofc.edu">feldmanrm@g.cofc.edu</a></p>
+<p>My name is Rachel Feldman and I am an Arts Management major, Data Science minor.  I concentrate on creating and imagining audience experiences of the highest caliber in the arts starting from the first interaction online to the post-event sentiment.  This project was a part of Dr. Paul Anderson's Data 101 class.  For questions or comments email me at <a href="mailto:feldmanrm@g.cofc.edu">feldmanrm@g.cofc.edu</a></p>
 
 <h2>
 <a id="the-competition" class="anchor" href="#the-competition" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Competition</h2>
@@ -36,15 +36,14 @@
 <p>Dialogues on social media can provide tremendous insight into the behaviors, desires, pains, and thoughts of consumers. We'd like your help in developing a repeatable process that identifies, classifies, and extracts the underlying drivers of consumer financial conversations and comments in social media data. </p>
 
 <h2>
-<a id="preparing-the-data" class="anchor" href="#preparing-the-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>PREPARING THE DATA</h2>
+<a id="preparing-the-data" class="anchor" href="#preparing-the-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Preparing the Data</h2>
 
 <p>In order to pull useful information from the data given, we but the dataset in R studio.  We mined the tweets and posts through R Studio, getting rid of blank spaces, messages that did not tag a particular bank.  Additionally, we spell checked the information.  </p>
 
 <h2>
-<a id="approach-and-methodology" class="anchor" href="#approach-and-methodology" aria-hidden="true"><span class="octicon octicon-link"></span></a>APPROACH AND METHODOLOGY</h2>
+<a id="approach-and-methodology" class="anchor" href="#approach-and-methodology" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approach and Methodology</h2>
 
-<p>Deliverable A - Describe your Approach and Methodology. Include a visual representation of your analytic process flow. 
-Once we prepared the tweets and posts for analysis, we used an agile methodology so we could test small amounts of data at a time to quicken the process, that would be representative of things we could get when testing the entire data set.<br>
+<p>Once we prepared the tweets and posts for analysis, we used an agile methodology so we could test small amounts of data at a time to quicken the process, that would be representative of things we could get when testing the entire data set.<br>
 An agile methodology was chosen so the many questions could be answered and so methods could be repeated and compared for each bank. Through a process, we tested 1000 random samples of the entire data set and then 1000 random samples of only bank A to compare and contrast differences.
 Below, find a graphical representation of the analytic and developmental approach taken.  It will show first cleaning the data where the team got rid of any additional room that was taking up space.  The team then tested the data overall to find positive and negative sentiment words as well as high-frequency words.  This gave us the framework to look at the data as a whole before looking into the context of each bank.  This step also allowed for the creation of two separate files for negative and positive posts.<br>
 The team indexed each bank to then replicate the tests: positive and negative as well as word frequency. 
@@ -57,7 +56,7 @@ The results were then tested against the results as a whole.</p>
 <p><img src="http://www.allthingy.com/wp-content/uploads/2014/07/Wisdom-Knowledge-Information-Data-Pyramid15.png" alt="DIKW Pyramid"></p>
 
 <h3>
-<a id="approaching-the-data-banks-withing-social-media" class="anchor" href="#approaching-the-data-banks-withing-social-media" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approaching the Data: Banks withing Social Media</h3>
+<a id="approaching-the-data-banks-within-social-media" class="anchor" href="#approaching-the-data-banks-within-social-media" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approaching the Data: Banks within Social Media</h3>
 
 <p>As the data given was real, it was important to find out more context before we began cleaning, organizing and gaining insights from it.  As Social Balkers, a social media research facility and consulting firm submits trends yearly, their report was used to see where the bank posts lay within the span of the greater social media.  </p>
 
@@ -67,7 +66,7 @@ The results were then tested against the results as a whole.</p>
 
 <p>We then looked at the top banks facebook likes.  While we did not have the specific bank per bank ID, this information is useful to see about what percent of users are talking.  Through Facebook, we saw that Wells Fargo has 850,000 likes, Bank of America has 2.3 million likes. JPMorgan and Chase, and Citigroup, two other national banks do not have national facebook pages, thus their numbers are much lower -in the thousands- but have many more pages.</p>
 
-<p>Comparing these numpers to the above graph, it is evident that each bank may be going in different directions of how much engagement they are aiming toward. While Bank of America may have a low engagement of .28% and .11%, according to this graph pages like Citigroup and JPMorgan will have a higher engagement of .94% and .65% </p>
+<p>Comparing these numbers to the above graph, it is evident that each bank may be going in different directions of how much engagement they are aiming toward. While Bank of America may have a low engagement of .28% and .11%, according to this graph pages like Citigroup and JPMorgan will have a higher engagement of .94% and .65% </p>
 
 <p>Next, Social Balkers published these graphs to show where different industris compare to eachother. In post engagement and post interaction.</p>
 
@@ -82,16 +81,15 @@ The results were then tested against the results as a whole.</p>
 <p>In approaching the data, our team took these numbers slightly into consideration to give the data more context.</p>
 
 <h2>
-<a id="social-conversation-starters" class="anchor" href="#social-conversation-starters" aria-hidden="true"><span class="octicon octicon-link"></span></a>SOCIAL CONVERSATION STARTERS</h2>
+<a id="social-conversation-drivers" class="anchor" href="#social-conversation-drivers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Social Conversation Drivers</h2>
 
-<p>Deliverable B - Discuss the data and its relationship to social conversation drivers. 
-To find the social conversation drivers, we started to index the data.  First we did this by positive vs. negative.  We then asked the questions of what started the conversation and what variables, from the given data, connect.
+<p>To find the social conversation drivers, we started to index the data.  First we did this by positive vs. negative.  We then asked the questions of what started the conversation and what variables, from the given data, connect.
 Questions that connect to this were is there a correlation between positive/ negative remarks on different days of the week or times of the month?  Is there a different sort of sentiment on twitter compared to facebook?
 If given additional information, more questions that could be answered are is location a factor in and of these posts? Can we geolocate, through social media, a branch that is doing really well vs poorly? Does location drive a certain feeling toward one bank or another?  Another group of questions that could be answered with additional information is time and if Time is a factor for overall sentiment, topic, or substance.  Finally, an interesting factor into all of these questions would be looking at the ages of the different posters and seeing if there is any correction between age, sentiment, topic, substance, location, and time of day.
 After answering these questions for a specific bank and finding numbers, comparing these to the overall internet averages would be beneficial to see where the banking world falls in social conversation compared to other industries. </p>
 
 <h2>
-<a id="code" class="anchor" href="#code" aria-hidden="true"><span class="octicon octicon-link"></span></a>CODE</h2>
+<a id="code" class="anchor" href="#code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code</h2>
 
 <div class="highlight highlight-source-r"><pre><span class="pl-c"># Load data set ('df.Rda')</span>
 load(<span class="pl-s"><span class="pl-pds">"</span>df.Rda<span class="pl-pds">"</span></span>)
@@ -306,6 +304,14 @@ summary(<span class="pl-smi">fit</span>) <span class="pl-c"># detailed summary o
 plot(<span class="pl-smi">fit</span>)
 rect.hclust(<span class="pl-smi">fit</span>, <span class="pl-v">k</span> <span class="pl-k">=</span> <span class="pl-c1">6</span>)
 
+<span class="pl-c">##Cluster Dendrogram</span>
+<span class="pl-smi">docs</span> <span class="pl-k">&lt;-</span> tm_map(<span class="pl-smi">docs</span>, <span class="pl-smi">removeWords</span>,c(<span class="pl-s"><span class="pl-pds">"</span>Name<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>and<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>for<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>this<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>are<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>from<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>just<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>get<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>ret_twit<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>name_resp<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>twit_hndl<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>twit_handl:<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>twit_hndl_banka<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>ly/<span class="pl-pds">"</span></span>)) 
+<span class="pl-smi">docs</span> <span class="pl-k">&lt;-</span> tm_map(<span class="pl-smi">docs</span>, <span class="pl-smi">removeWords</span>, stopwords(<span class="pl-s"><span class="pl-pds">"</span>english<span class="pl-pds">"</span></span>))
+<span class="pl-smi">docs</span> <span class="pl-k">&lt;-</span> tm_map(<span class="pl-smi">docs</span>, <span class="pl-smi">removeWords</span>, stopwords(<span class="pl-v">kind</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>SMART<span class="pl-pds">"</span></span>))
+
+<span class="pl-smi">dtm</span> <span class="pl-k">&lt;-</span> DocumentTermMatrix(<span class="pl-smi">docs</span>)
+<span class="pl-smi">tdm</span> <span class="pl-k">&lt;-</span> TermDocumentMatrix(<span class="pl-smi">docs</span>)
+
 <span class="pl-c">##############</span></pre></div>
 
 <h2>
@@ -353,7 +359,7 @@ Top Topics discussed: Customer Service</li>
 </ul>
 
 <h2>
-<a id="insights" class="anchor" href="#insights" aria-hidden="true"><span class="octicon octicon-link"></span></a>INSIGHTS</h2>
+<a id="insights" class="anchor" href="#insights" aria-hidden="true"><span class="octicon octicon-link"></span></a>Insights</h2>
 
 <h3>
 <a id="classification-to-find-comments-of-substance" class="anchor" href="#classification-to-find-comments-of-substance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Classification to find comments of substance.</h3>
