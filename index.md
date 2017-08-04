@@ -1,17 +1,18 @@
-#Analyzing Social Media Response#
-###BY RACHEL FELDMAN AND JENIFFER SOTO-PEREZ###
+<h1>Analyzing Social Media Response</h1>
 
-##About Me##
+<h3>BY RACHEL FELDMAN AND JENIFFER SOTO-PEREZ</h3>
+
+<h2>About Me</h2>
 ![](http://i.imgur.com/2Mn2vgqt.jpg)Rachel Feldman is a graduate from the College of Charleston.  She concentrates in creating and imagining audience experiences of the highest caliber in the arts starting from the first interaction online to the post-event sentiment.  For questions or comments contact via email at rachelfeldman27@gmail.com
 
-##The Competition##
+<h2>The Competition</h2>
 From the competition website:
 Dialogues on social media can provide tremendous insight into the behaviors, desires, pains, and thoughts of consumers. We'd like your help in developing a repeatable process that identifies, classifies, and extracts the underlying drivers of consumer financial conversations and comments in social media data. 
 
-##Preparing the Data##
+<h2>Preparing the Data</h2>
 In order to pull useful information from the data given, we put the dataset in R studio.  We mined the tweets and posts through R Studio, getting rid of blank spaces, messages that did not tag a particular bank.  Additionally, we spell checked the information.  
 
-##Approach and Methodology##
+<h2>Approach and Methodology</h2>
 
 Once we prepared the tweets and posts for analysis, we used an agile methodology so we could test small amounts of data at a time to quicken the process. 
 An agile methodology was chosen so we could start to answer smaller questions and work our way up to bigger ones that would lead to bigger and broader results.  Our methods could be repeated and compared for each bank. Through our process, we tested 1000 random samples of the entire data set and then 1000 random samples of only bank A to compare and contrast differences.
@@ -25,7 +26,7 @@ Our methodology mirrors the first three steps of the DIKW pyramid.  The pyramid 
 
 ![DIKW Pyramid](http://www.allthingy.com/wp-content/uploads/2014/07/Wisdom-Knowledge-Information-Data-Pyramid15.png)
 
-###Approaching the Data: Banks within Social Media###
+<h2>Approaching the Data: Banks within Social Media</h2>
 As the data given was real, it was important to find out more about banks' part in social media before we began cleaning, organizing and gaining insights from it.  As Social Balkers, a social media research facility and consulting firm submits trends yearly, their report was used to see where the bank posts lay within the span of the greater social media.  
 
 First, engagement rate typically is determined by size:
@@ -50,7 +51,7 @@ In approaching the data, our team took these numbers slightly into consideration
 
 
 
-##Social Conversation Drivers##
+<h2>Social Conversation Drivers</h2>
 
 To find the social conversation drivers, we started to index the data.  First we did this by separating the positive and negative posts.  We then asked the questions of what started the conversation and what variables, from the given data, connect.
 
@@ -68,7 +69,7 @@ If given additional information, more questions that could be answered are:
 After answering these questions for a specific bank and finding numbers, comparing these to the overall internet averages would be beneficial to see where the banking world falls in social conversation compared to other industries. 
 
 
-##Code##
+<h2>Code</h2>
 
 
 ```R
@@ -296,7 +297,7 @@ tdm <- TermDocumentMatrix(docs)
 
 ##############
 ```
-##Topics Discussed##
+<h2>Topics Discussed</h2>
 Top Topics discussed: 
 * Customer Service
 1. ATM
@@ -326,9 +327,9 @@ Fees
 * Too many fees withdrawing money at ATMs 
 
 
-##Insights##
+<h2>Insights<h2>
 
-###Classification to find comments of substance. ###
+<h3>Classification to find comments of substance </h3>
 We started creating a code that would classify the tweets and posts into spam or real.  We did this for the positive and negative posts separately to see the differences and similarities between what can be responded to, both on social media, as well as from a business stand-point.  In doing so, and testing parts of the data, we created two decision trees that showed what key words (aside from names, twitter handle, and the bank name)  
 Our suggestion would be to have the people responding to tweets/ posts putting if they are spam or not so the algorithm becomes more sophisticated.  In doing so, when looking at the tweets later on, the data will be better minned if there was an algorithm that took out nonrelevant or ‘spam’ tweets and posts. 
 
@@ -340,7 +341,7 @@ Our suggestion would be to have the people responding to tweets/ posts putting i
 According to our tree diagram, this diagram displays the positive and negative relevant words. This is significant because here we are able to plot the relevancy of positive sentiments as it shows overall bank's performance within the industry. When banks are acknowledged for their service they receive positive statements within a .5 relevancy.  With a less than .5 relevancy, the post may not be worth the time of the analyzer on the next social media analysis.  This can be helpful to decrease wasted space and a faster analysis process because there will be a significant amount less posts and tweets.  In our research, out of 301 posts, only 137 were relevant. 
 
 
-### Frequent Topics and Related Items###
+<h3> Frequent Topics and Related Items </h3>
 ![Cluster Dendrogram](http://i.imgur.com/roYZq10.png)
 This dedrogram shows some of the hierarchical pairings of words commonly found together.  This dendrogram makes come interesting connections:
 * At the smaller connections, money and phone are linked suggestion mobile app use, or customer service ties
@@ -372,7 +373,7 @@ Through the top topics for Bank C, it is evident that their connections are the 
 Bank D shows a high connection to the community around them.  Whether it is Bank D that exists in another form other than the bank, it seems that bank D sponsors many things. With words like apply, program, and business, the bank shows more engagement words than the other banks.
 
 
-##Conclusion##
+<h2>Conclusion</h2>
 Social Media is a type of interaction with circles of friends and the community that surrounds those circles.  It's important for companies to use their social data in order to get better insight on who their audience is, and how they are feeling. Then its imparative these companies make action with these results and use analysis to inform decisions.  Through this analysis we have seen many things.  It is probable that all banks have a range of polarity in sentiment.  This report shows suggestions in how it can be analyzed in the future:
 * While going through tweets and posts declaring their relevancy to be able to use classification in the future
 * Seeing the top topics discussed using word frequency
