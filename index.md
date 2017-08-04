@@ -1,8 +1,8 @@
 #Analyzing Social Media Response#
-###BY RACHEL FELDMAN, JENIFFER SOTO-PEREZ, AND CASEY SALVADOR###
+###BY RACHEL FELDMAN AND JENIFFER SOTO-PEREZ###
 
 ##About Me##
-![](http://i.imgur.com/2Mn2vgqt.jpg)My name is Rachel Feldman and I am a student at the College of Charleston.  I concentrate in creating and imagining audience experiences of the highest caliber in the arts starting from the first interaction online to the post-event sentiment.  The following project is a part of Dr. Paul Anderson's Data 101 class.  For questions or comments contact me via email at feldmanrm@g.cofc.edu
+![](http://i.imgur.com/2Mn2vgqt.jpg)Rachel Feldman is a graduate from the College of Charleston.  She concentrates in creating and imagining audience experiences of the highest caliber in the arts starting from the first interaction online to the post-event sentiment.  For questions or comments contact via email at rachelfeldman27@gmail.com
 
 ##The Competition##
 From the competition website:
@@ -15,7 +15,7 @@ In order to pull useful information from the data given, we put the dataset in R
 
 Once we prepared the tweets and posts for analysis, we used an agile methodology so we could test small amounts of data at a time to quicken the process. 
 An agile methodology was chosen so we could start to answer smaller questions and work our way up to bigger ones that would lead to bigger and broader results.  Our methods could be repeated and compared for each bank. Through our process, we tested 1000 random samples of the entire data set and then 1000 random samples of only bank A to compare and contrast differences.
-Below, find a graphical representation of the analytic and developmental approach taken.  It will show first cleaning the data where the team got rid of any additional room that was taking up space.  The team then tested the data overall to find positive and negative sentiment words as well as high-frequency words.  This gave us the framework to look at the data as a whole before looking into the context of each bank.  This step also allowed for the creation of two separate files for negative and positive posts.  
+Below, find a graphical representation of the analytic and developmental approach taken.  The process started with cleaning the data where the team got rid of any additional room that was taking up space.  The team then tested the data overall to find positive and negative sentiment words as well as high-frequency words.  This gave us the framework to look at the data as a whole before looking into the context of each bank.  This step also allowed for the creation of two separate files for negative and positive posts.  
 The team indexed each bank to then replicate the tests: positive and negative as well as word frequency. 
 The results were then tested against each bank's and the data set as a whole.  Finally, we tried to pull conclusions about what our results may tell us about the bank industry's presence in social media as a whole.
 
@@ -310,6 +310,7 @@ Top Topics discussed:
 9. Fees
 
 The three main topics discussed were customer service, fees and ATM.
+
 ATM
 * Customer dislikes interacting with ATM due to lack of privacy, security, and customer service. 
 * Card often goes unread at ATM’s and stores.
@@ -341,7 +342,7 @@ According to our tree diagram, this diagram displays the positive and negative r
 
 ### Frequent Topics and Related Items###
 ![Cluster Dendrogram](http://i.imgur.com/roYZq10.png)
-This dedrogram, created by a member or my team shows some of the hierarchical pairings of words commonly found together.  This dendrogram makes come interesting connections:
+This dedrogram shows some of the hierarchical pairings of words commonly found together.  This dendrogram makes come interesting connections:
 * At the smaller connections, money and phone are linked suggestion mobile app use, or customer service ties
 * BankD is commonly linked to url links(represented by 'internet')
 * BankA is clustered with twitter handles which shows that there was a high percent of the posts tweets about bank A
@@ -350,7 +351,7 @@ This dedrogram, created by a member or my team shows some of the hierarchical pa
 * Today is closely clustered with business and street.  This may imply that the users had an urgency in posting that day and that the experience was in person- a business or a street addressed.  This can either mean a walk in bank or ATM location. 
 
 
-Regardless of sentiment value, the four banks were surveyed separately and together to find the most common topics for each, represented in a word cloud.
+Regardless of sentiment value, the four banks were surveyed both separately and together to find the most common topics for each, represented in a word cloud.
 
 ![Word Cloud](http://i.imgur.com/CnUjkLu.png)  ![Histogram](http://i.imgur.com/0yhd2Wy.png)
 
@@ -372,7 +373,7 @@ Bank D shows a high connection to the community around them.  Whether it is Bank
 
 
 ##Conclusion##
-Social Media is not only a place to talk to friends or a marketing ploy.  It is a place where our society continues.  Thus, it is important to understand its importance and what people on it are saying about companies.  Through this analysis we have seen many things.  It is probable that all banks have a range of polarity in sentiment.  This report shows suggestions in how it can be analyzed in the future:
+Social Media is a type of interaction with circles of friends and the community that surrounds those circles.  It's important for companies to use their social data in order to get better insight on who their audience is, and how they are feeling. Then its imparative these companies make action with these results and use analysis to inform decisions.  Through this analysis we have seen many things.  It is probable that all banks have a range of polarity in sentiment.  This report shows suggestions in how it can be analyzed in the future:
 * While going through tweets and posts declaring their relevancy to be able to use classification in the future
 * Seeing the top topics discussed using word frequency
 * Using clustering to determine the closeness of different words. 
