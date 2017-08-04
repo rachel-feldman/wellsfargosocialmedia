@@ -1,0 +1,8 @@
+title: Wells Fargo Social Media Analytic Challenge
+description: Results from Wells Fargo College Analytic Challenge
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
