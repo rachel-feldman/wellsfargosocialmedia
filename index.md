@@ -327,7 +327,7 @@ Fees
 * Too many fees withdrawing money at ATMs 
 
 
-<h2>Insights<h2>
+<h2>Insights</h2>
 
 <h3>Classification to find comments of substance </h3>
 We started creating a code that would classify the tweets and posts into spam or real.  We did this for the positive and negative posts separately to see the differences and similarities between what can be responded to, both on social media, as well as from a business stand-point.  In doing so, and testing parts of the data, we created two decision trees that showed what key words (aside from names, twitter handle, and the bank name)  
